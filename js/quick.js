@@ -17,7 +17,7 @@ function quickSort(arr) {
         rightArr.push(arr[i])
       }
     }
-    return sortedArr .concat(quickSort(left), pivot, quickSort(right));
+    return sortedArr .concat(quickSort(leftArr), pivot, quickSort(rightArr));
   }
 }
 
